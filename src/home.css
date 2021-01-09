@@ -1,0 +1,62 @@
+.home__banner {
+    background-image: url("images/image_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -500px;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__banner h1 {
+    font-size:4rem;
+    text-shadow: 5px 6px black;
+}
+
+.home__subBanner {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.home__content {
+    padding: 0px 10%;
+    margin-top: 2rem;
+}
+
+.home__content__title h2 {
+    font-size: 2rem;
+}
+
+
+.home__content__title {
+    display: flex;
+    justify-content: center;
+}
+
+.home__content__clusters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__content__clusters div {
+    display: flex;
+    flex-grow: 1;
+    width: 31%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background:tomato;
+    margin:1%;
+    
+}
+
+.home__content__clusters div a {
+    color: white;
+    text-decoration: none;
+}

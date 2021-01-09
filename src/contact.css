@@ -1,0 +1,33 @@
+.contact {
+    margin-top: 1rem;
+}
+
+.contact__title {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.contact__form form button, .contact__form form input, .contact__form form textarea {
+    height: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.contact__form textarea {
+    min-height: 150px;
+}
+
+.contact__form button {
+    width: 150px;
+}
